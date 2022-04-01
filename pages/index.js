@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import Banner from '../components/Banner'
-import Card from '../components/Card'
+import Banner from '../components/banner'
+import Card from '../components/card'
 import useTrackLocation from '../hooks/use-track-location';
 
 import {fetchCoffeeStores} from '../lib/coffee-stores.js'
