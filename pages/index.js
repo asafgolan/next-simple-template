@@ -57,6 +57,7 @@ export default function Home(props) {
             <Head>
                 <title>coffee connoisseur</title>
                 <link rel="icon" href="/favicon.ico"/>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
 
             <main className={styles.main}>
